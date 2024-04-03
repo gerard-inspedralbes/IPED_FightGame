@@ -10,7 +10,7 @@ public class Troll extends Fighter{
 
     @Override
     public boolean fight(Character opponent) {
-        return this.getEndurance() > opponent.getEndurance();
+        return this.getStrength() > opponent.getStrength();
     }
     @Override
     public String toString() {

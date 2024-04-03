@@ -39,6 +39,10 @@ public abstract class Character {
         return endurance;
     }
 
+    public int getStrength() {
+        return strength;
+    }
+
     public void loseLive(){
         lives--;
     }
